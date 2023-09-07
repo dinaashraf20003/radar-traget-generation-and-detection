@@ -22,15 +22,15 @@
 # Scripts
 ## FFT
 - Function: Fast Fourier Transform is used to convert the signal from time domain to frequency domain. Conversion to frequency domain is important to do the spectral analysis of the signal and determine the shifts in frequency due to range and doppler.
-- Output:
  ![Figure_2](https://github.com/dinaashraf20003/radar-traget-generation-and-detection/assets/73821958/ac0f5a08-75b7-433d-8429-927d2c8698bd)
 
 ## 2D FFT
 - Function: The output of the first FFT gives the beat frequency, amplitude, and phase for each target. This phase varies as we move from one chirp to another (one bin to another on each row) due to the target’s small displacements. Once the second FFT is implemented it determines the rate of change of phase, which is nothing but the doppler frequency shift.
-- Output
-  
+  ![Figure_4](https://github.com/dinaashraf20003/radar-traget-generation-and-detection/assets/73821958/eb8a1d65-2dad-4e2a-a49c-9730114c6867)
+
 ## 1D CFAR
+- Function: The CFAR technique estimates the level of interference in radar range and doppler cells “Training Cells” on either or both the side of the “Cell Under Test”. The estimate is then used to decide if the target is in the Cell Under Test (CUT).
+![1D_CFAR (copy)](https://github.com/dinaashraf20003/radar-traget-generation-and-detection/assets/73821958/eccbd998-14a2-467e-9b83-7daf1706fc0a)
 
 
 
-## radar-target-generation-and-detection
